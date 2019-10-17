@@ -25,9 +25,9 @@ div.media .media-heading .jobTotalDuration {
 }
 
 div.media img {
-  height: 10vmin;
-  margin-right: 10px;
-  border-radius: 50px;
+  height: auto;
+  margin-right: 15px;
+  max-width: 110px;
 }
 
 div.media .jobDuration {
@@ -60,3 +60,64 @@ footer a {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+.display-3 {
+  font-size: 3.5rem !important;
+  width: max-content;
+}
+
+.lead{
+  text-align: justify;
+}
+
+.jobDescription{
+  text-align: justify; 
+}
+
+@media (max-width: 420px) {
+  div.media {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+  }
+  div.media img {
+    height: auto;
+    max-width: 120px;
+    margin: 15px;
+  }
+}
+
+/* Typing effect */ 
+
+.typewriter {
+  font-family: Courier, monospace;
+}
+
+.typewriter-text {
+  overflow: hidden;
+  animation: typing 3s steps(30, end), blink 1s infinite;
+  font-weight: 700;
+  border-right: 4px solid royalblue;
+}
+
+
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: royalblue; 
+  }
+}
+

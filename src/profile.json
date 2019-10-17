@@ -1,6 +1,7 @@
 {
-    "title": "Web Developer",
-    "summary": "I've been into computers since I can remember. Everything that has to do with tech piques my interest. Linux lover, open-source initiatives, programming languages and frameworks. And mainly, I'm passionate about working with creative and innovative professionals, helping others in making their projects and start-up ideas come true with fast, efficient and beautiful results. I also love soccer, surfing, and dogs.",
+    "title1": "Web Developer",
+    "summary": "I've been into computers since I can remember. Everything that has to do with tech piques my interest. Linux lover, open-source initiatives, programming languages and frameworks. And mainly, I'm passionate about working with creative and innovative professionals, helping others in making their projects and start-up ideas come true with fast, efficient and beautiful results.",
+    "likes": "I also love skating, soccer and dogs. 🛹⚽🐕",
     "studies": [
         {
             "institute": "Ironhack",
@@ -8,18 +9,18 @@
             "url": "https://www.ironhack.com/",
             "title": "Full Stack Developer in Javascript",
             "graduationYear": 2019,
-            "durationInYears": "0,3"
+            "durationInYears": "0,4"
         },
         {
-            "institute": "Universidad Tecnologica del Centro",
+            "institute": "Universidad Tecnológica del Centro",
             "logo": "https://pbs.twimg.com/profile_images/1133096319378173954/4OMmeEtl.png",
             "url": "http://portal.unitec.edu.ve/",
             "title": "Information Engineering",
             "graduationYear": 2019,
-            "durationInYears": "3"
+            "durationInYears": "4"
         },
         {
-            "institute": "Universidad Simon Bolivar",
+            "institute": "Universidad Simón Bolívar",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/USB_logo.svg",
             "url": "https://www.comp.coord.usb.ve/",
             "title": "Bachelor on Computer Science",
@@ -29,12 +30,12 @@
     ],
     "certifications": [
         {
-            "logo": "../images/certificate.png",
+            "logo": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13673560",
             "url": "https://www.ironhack.com/en/courses/web-development-bootcamp",
             "title": "Web Development",
             "issuer": "Ironhack Barcelona",
             "issueDate": "2018-09-01",
-            "expiryDate": "2060-09-01",
+            "expiryDate": "2028-09-01",
             "verificationLink": "https://www.credential.net/pp3u39gl"
         }
     ],
@@ -46,23 +47,65 @@
             "roles": [
                 {
                     "title": "Teacher Assistant",
-                    "description": "Assistance and preparation of a bootcamp course, teaching Full Stack Web Development in Javascript technologies using the MERN stack.",
+                    "description": "Assistance and preparation of a bootcamp course, teaching Full Stack Web Development in Javascript using the MERN technology stack.",
                     "startDate": "2019-09-16",
                     "currentJob": true,
-                    "location": "Barcelona"
+                    "location": "Barcelona, Spain"
                 }
             ]
         },
         {
             "companyName": "Limbicode Multimedia Studio",
-            "logo": "https://media.licdn.com/dms/image/C4D0BAQEOGmtbMe-jiA/company-logo_400_400/0?e=1547078400&v=beta&t=O-BNIwr7tSojDadQq7WHlBT349-M2WEl7tgY4IJxLzU",
-            "url": "http://www.limbicodestudio.com/",
+            "logo": "https://media.licdn.com/dms/image/C4E0BAQGggCWVKwHb2g/company-logo_200_200/0?e=2159024400&v=beta&t=Q8_bkR8mxjBJPyZddOx8wHBYoAaodZHscRHcW-Havfk",
+            "url": "http://www.studiolimbicode.com/",
             "roles": [
                 {
                     "title": "Web Consultant",
-                    "description": "In charge of planning, take decissions about the technology to used and manage projects. This job position requires to have knowledges of the technology used such as PHP, Wordpress, Javascript, and be able to write the code if neccessary.",
-                    "startDate": "2018-07-01",
-                    "endDate": "2019-06-01",
+                    "description": "In charge of planning, taking decissions about the technology to used and manage projects. This job position requires to have knowledges of the technology used such as PHP, Wordpress, Javascript, and be able to write the code if neccessary.",
+                    "startDate": "2018-06-01",
+                    "endDate": "2019-07-01",
+                    "location": "Valencia, Venezuela"
+                }
+            ]
+        },
+        {
+            "companyName": "Independent",
+            "logo": "../images/logo.png",
+            "url": "https://www.vairojarela.com/",
+            "roles": [
+                {
+                    "title": "Freelance Web Applications Developer",
+                    "description": "Design, development, testing and implementation of custom web applications for a variety of individuals, startups and organizations, covering a wide range of tech solutions.",
+                    "startDate": "2018-01-01",
+                    "currentJob": true,
+                    "location": "Anywhere"
+                }
+            ]
+        },
+        {
+            "companyName": "SofOS",
+            "logo": "http://www.sofoscorp.com/wp-content/uploads/2013/11/logo.png",
+            "url": "http://www.sofoscorp.com/",
+            "roles": [
+                {
+                    "title": "Intern Developer SAPUI5",
+                    "description": "Internship at SofOS, a SAP Gold Partner. Designed, developed, tested and implemented a planning application in for the poultry industry, used for supervising food, sanitary and transport plans of live chickens in multiple warehouses connected by SAP/HANA technologies, using the SAPUI5 front-end library.",
+                    "startDate": "2016-09-01",
+                    "endDate": "2017-01-01",
+                    "location": "Valencia, Venezuela"
+                }
+            ]
+        },
+        {
+            "companyName": "Flexiplast",
+            "logo": "../images/flexi_logo.jpg",
+            "url": "#",
+            "roles": [
+                {
+                    "title": "IT Technician & Project Manager",
+                    "description": "Provided multiple types of support in productive, administrative and IT operations. Also planned, managed and supervised different improvement projects for the company, while reporting directly to  the senior staff.",
+                    "startDate": "2013-01-01",
+                    "endDate": "2016-01-01",
                     "location": "Valencia, Venezuela"
                 }
             ]
