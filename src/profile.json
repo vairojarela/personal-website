@@ -1,5 +1,5 @@
 {
-    "title1": "Web Developer",
+    "title1": "Software Developer",
     "summary": "I've been into computers since I can remember. Everything that has to do with tech piques my interest. Linux lover, open-source initiatives, programming languages and frameworks. And mainly, I'm passionate about working with creative and innovative professionals, helping others in making their projects and start-up ideas come true with fast, efficient and beautiful results.",
     "likes": "I also love skating, soccer and dogs. 🛹⚽🐕",
     "studies": [
@@ -70,7 +70,7 @@
         },
         {
             "companyName": "Independent",
-            "logo": "../images/logo.png",
+            "logo": "images/logo.png",
             "url": "https://www.vairojarela.com/",
             "roles": [
                 {
@@ -98,7 +98,7 @@
         },
         {
             "companyName": "Flexiplast",
-            "logo": "../images/flexi_logo.jpg",
+            "logo": "images/flexi_logo.jpg",
             "url": "#",
             "roles": [
                 {
