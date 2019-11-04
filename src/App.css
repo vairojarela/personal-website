@@ -65,12 +65,12 @@ footer a {
   font-size: 3.5rem !important;
 }
 
-.lead{
+.lead {
   text-align: justify;
 }
 
-.jobDescription{
-  text-align: justify; 
+.jobDescription {
+  text-align: justify;
 }
 
 @media (max-width: 420px) {
@@ -87,7 +87,7 @@ footer a {
   }
 }
 
-/* Typing effect */ 
+/* Typing effect */
 
 .typewriter {
   font-family: Courier, monospace;
@@ -100,23 +100,21 @@ footer a {
   border-right: 4px solid royalblue;
 }
 
-
-
 @keyframes typing {
-  from { 
-      width: 0% 
+  from {
+    width: 0%;
   }
-  to { 
-      width: 100% 
+  to {
+    width: 100%;
   }
 }
 
 @keyframes blink {
-  from, to { 
-      border-color: transparent 
+  from,
+  to {
+    border-color: transparent;
   }
-  50% { 
-      border-color: royalblue; 
+  50% {
+    border-color: royalblue;
   }
 }
-
