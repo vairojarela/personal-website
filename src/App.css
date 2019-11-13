@@ -1,3 +1,22 @@
+* {
+  font-family: system-ui, -apple-system, sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Major Mono Display", monospace !important;
+  text-align: center;
+}
+body {
+  background-image: url("/images/gplaypattern_@2X.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.font {
+  font-family: "Major Mono Display", monospace;
+}
+
 .profile-pic {
   height: 4vmin;
   margin-right: 10px;
@@ -5,7 +24,8 @@
 }
 
 a {
-  color: #343a40;
+  color: #343a40 !important;
+  text-decoration: underline !important;
 }
 
 a:hover {
@@ -67,6 +87,7 @@ footer a {
 
 .lead {
   text-align: justify;
+  margin: 5%;
 }
 
 .jobDescription {
@@ -86,35 +107,119 @@ footer a {
     margin: 15px;
   }
 }
-
-/* Typing effect */
-
-.typewriter {
-  font-family: Courier, monospace;
+.likes {
+  text-align: center;
+  height: 20vh;
+}
+.skills {
+  display: flex;
+  height: 50vh;
+  flex-flow: column;
 }
 
-.typewriter-text {
-  overflow: hidden;
-  animation: typing 3s steps(30, end), blink 1s infinite;
-  font-weight: 700;
-  border-right: 4px solid royalblue;
+.experience-items {
+  font-family: "Major Mono Display", monospace;
+}
+#skills {
+  display: flex;
 }
 
-@keyframes typing {
-  from {
-    width: 0%;
+@media (max-width: 700px) {
+  #intro {
+    flex-flow: column;
   }
+  #skills {
+    flex-flow: column;
+    align-items: center;
+  }
+  #intro div {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+  }
+  .media {
+    flex-flow: column;
+    align-items: center !important;
+    text-align: center;
+  }
+  .media-object {
+    margin: 0 !important;
+  }
+}
+
+/*ARROW ANIMATION*/
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #000;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
   to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: royalblue;
+    opacity: 1;
   }
 }
