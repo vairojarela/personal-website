@@ -11,51 +11,6 @@ class Education extends React.Component {
       <Container>
         <Row>
           <Col>
-            {profile.studies.map(function(study, i) {
-              return (
-                <div data-aos="fade-up" data-aos-offset="250" key={i}>
-                  <Media key={i}>
-                    <Media left top href={study.url}>
-                      <Media object src={study.logo} alt={study.institute} />
-                    </Media>
-                    <Media body>
-                      <Media heading>
-                        <a href={study.url}>{study.institute}</a>
-                      </Media>
-                      {[
-                        {
-                          key: "Title",
-                          value: study.title
-                        },
-                        {
-                          key: "Graduation Year",
-                          value: study.graduationYear
-                        },
-                        {
-                          key: "Duration",
-                          value: study.durationInYears + " year(s)"
-                        }
-                      ].map(function(object, i) {
-                        return (
-                          <div>
-                            <Row>
-                              <Col className="formLabel">{object.key}:</Col>
-                            </Row>
-                            <Row>
-                              <Col>{object.value}</Col>
-                            </Row>
-                          </div>
-                        );
-                      })}
-                    </Media>
-                  </Media>
-                </div>
-              );
-            })}
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             {profile.certifications.map(function(certification, i) {
               const verification = certification.verificationLink ? (
                 <Row>
@@ -72,7 +27,7 @@ class Education extends React.Component {
                 ""
               );
               return (
-                <div data-aos="fade-up" data-aos-offset="100" key={i}>
+                <div data-aos="fade-in" data-aos-offset="250" key={i}>
                   <Media key={i}>
                     <Media left top href={certification.url}>
                       <Media
@@ -99,6 +54,51 @@ class Education extends React.Component {
                         <Col>{certification.issuer}</Col>
                       </Row>
                       {verification}
+                    </Media>
+                  </Media>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {profile.studies.map(function(study, i) {
+              return (
+                <div data-aos="fade-in" data-aos-offset="350" key={i}>
+                  <Media key={i}>
+                    <Media left top href={study.url}>
+                      <Media object src={study.logo} alt={study.institute} />
+                    </Media>
+                    <Media body>
+                      <Media heading>
+                        <a href={study.url}>{study.institute}</a>
+                      </Media>
+                      {[
+                        {
+                          key: "Title",
+                          value: study.title
+                        },
+                        {
+                          key: "Graduation Year",
+                          value: study.graduationYear
+                        },
+                        {
+                          key: "Duration",
+                          value: study.durationInYears + " year(s)"
+                        }
+                      ].map(function(object, i) {
+                        return (
+                          <div key={i}>
+                            <Row>
+                              <Col className="formLabel">{object.key}:</Col>
+                            </Row>
+                            <Row>
+                              <Col>{object.value}</Col>
+                            </Row>
+                          </div>
+                        );
+                      })}
                     </Media>
                   </Media>
                 </div>
